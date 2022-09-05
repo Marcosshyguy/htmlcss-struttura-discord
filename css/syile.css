@@ -82,6 +82,43 @@ nav{
     min-height: 200px;
 }
 
+/* main */
+.section-main{
+    min-height: 400px;
+    display: flex ;
+    align-items: center;
+    padding: 4em;
+    
+}
+
+.photo{
+    min-height: 200px;
+    flex-grow: 3;
+    /* debug */
+    background-color: red;
+}
+
+.text{
+    min-height: 200px;
+    flex-grow: 1;
+    /* debug */
+    background-color: lightcoral
+}
+
+.photo2{
+    order:1;
+}
+
+.big-description{
+    min-height: 300px;
+    width: 100%;
+        /* debug */
+    background-color: magenta;
+}
+
+
+
+
 
 
 
