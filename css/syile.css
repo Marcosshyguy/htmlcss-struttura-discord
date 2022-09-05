@@ -16,6 +16,10 @@ body{
     width: 70%;
     margin: 0 auto;
 }
+
+.bg_gray{
+    background-color: lightgray;
+}
 /* header */
 header{
     min-height: 400px;
@@ -111,10 +115,51 @@ nav{
 
 .big-description{
     min-height: 300px;
-    width: 100%;
         /* debug */
     background-color: magenta;
 }
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 2em;
+    /* debug */
+    height: 500px;
+}
+
+.top-footer{
+    min-height: 200px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2em;
+    border-bottom: 1px solid white;
+}
+
+.about{
+    width: 20%;
+}
+
+.link-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.links{
+    margin: 0 1em;
+}
+
+.links ul{
+    list-style-type: none;
+}
+
+
+
+
 
 
 
